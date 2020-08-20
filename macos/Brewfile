@@ -1,0 +1,133 @@
+tap "github/gh"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
+cask "adoptopenjdk8"
+
+# Record and share terminal sessions
+brew "asciinema"
+# Official Amazon AWS command-line interface
+brew "awscli@2"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
+# Development kit for the Java programming language
+brew "openjdk@11"
+# GNU internationalization (i18n) and localization (l10n) library
+brew "gettext"
+# Statistics utility to count lines of code
+brew "cloc"
+# Cross-platform make
+brew "cmake"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
+# Good-lookin' diffs with diff-highlight and more
+brew "diff-so-fancy"
+# GNU Transport Layer Security (TLS) Library
+brew "gnutls"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
+# Collection of GNU find, xargs, and locate
+brew "findutils"
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
+# Cleans up old and inactive forks on your GitHub account
+brew "fork-cleaner"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GNU awk utility
+brew "gawk"
+# GNU implementation of the famous stream editor
+brew "gnu-sed"
+# GNU version of the tar archiving utility
+brew "gnu-tar"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
+# GPG key agent
+brew "gpg-agent"
+# Colorize logfiles and command output
+brew "grc"
+# Command-line benchmarking tool
+brew "hyperfine"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# YAML Parser
+brew "libyaml"
+# Java-based project management
+brew "maven"
+# Library for a binary-based efficient data interchange format
+brew "msgpack"
+# 'traceroute' and 'ping' in a single tool
+brew "mtr", link: false
+# NCurses Disk Usage
+brew "ncdu"
+# Port scanning utility for large networks
+brew "nmap"
+# Platform built on V8 to build network applications
+brew "node"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl"
+# Pinentry for GPG on Mac
+brew "pinentry-mac"
+# Show ps output as a tree
+brew "pstree"
+# Python version management
+brew "pyenv"
+# Library for command-line editing
+brew "readline"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Static analysis and lint tool, for (ba)sh scripts
+brew "shellcheck"
+# Command-line interface for SQLite
+brew "sqlite3"
+# User interface to the TELNET protocol
+brew "telnet"
+# Simplified and community-driven man pages
+brew "tldr"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Vi 'workalike' with many additional features
+brew "vim"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
+# Internet file retriever
+brew "wget"
+# General-purpose data compression with high compression ratio
+brew "xz"
+# Linter for YAML files
+brew "yamllint"
+# JavaScript package manager
+brew "yarn"
+# General-purpose lossless data-compression library
+brew "zlib"
+# GitHub CLI
+brew "github/gh/gh"
+
+cask "docker"
+cask "font-hack"
+cask "font-jetbrains-mono"
+cask "google-chrome"
+cask "iina"
+cask "iterm2-beta"
+cask "keybase"
+cask "ngrok"
+cask "notion"
+cask "postman"
+cask "qlcolorcode"
+cask "qlimagesize"
+cask "qlmarkdown"
+cask "qlprettypatch"
+cask "qlstephen"
+cask "quicklook-csv"
+cask "quicklook-json"
+cask "rectangle"
+cask "slack"
+cask "spotify"
+cask "suspicious-package"
+cask "visual-studio-code"
+cask "webpquicklook"
