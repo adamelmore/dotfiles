@@ -47,8 +47,6 @@ brew "gnu-sed"
 brew "gnu-tar"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
-# GPG key agent
-brew "gpg-agent"
 # Colorize logfiles and command output
 brew "grc"
 # Command-line benchmarking tool
