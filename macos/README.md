@@ -6,7 +6,7 @@
 $ # install Xcode Command Line Tools
 $ xcode-select --install
 $ # install Homebrew
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 $ # clone the dotfiles repo
 $ git clone https://github.com/adamelmore/dotfiles.git ~/.dotfiles
 $ # install Brewfile
