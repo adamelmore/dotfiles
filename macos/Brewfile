@@ -13,6 +13,8 @@ brew "asciinema"
 brew "awscli@2"
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
+# AST-based pattern checker for JavaScript
+brew "eslint"
 # Development kit for the Java programming language
 brew "openjdk@11"
 # GNU internationalization (i18n) and localization (l10n) library
@@ -106,6 +108,7 @@ brew "zlib"
 # GitHub CLI
 brew "github/gh/gh"
 
+cask "brooklyn"
 cask "docker"
 cask "font-hack"
 cask "font-jetbrains-mono"
