@@ -110,6 +110,7 @@ brew "github/gh/gh"
 
 cask "brooklyn"
 cask "docker"
+cask "dotnet"
 cask "font-hack"
 cask "font-jetbrains-mono"
 cask "google-chrome"
