@@ -5,6 +5,7 @@
 	"editor.fontLigatures": true,
 	"editor.fontSize": 15,
 	"editor.formatOnSave": true,
+	"editor.lineHeight": 0,
 	"editor.minimap.enabled": false,
 	"editor.renderWhitespace": "boundary",
 	"editor.rulers": [80, 120],
@@ -145,5 +146,8 @@
 		"editor.fontFamily": "'JetBrains Mono', Hack, Menlo, Monaco, 'Courier New', monospace",
 		"editor.wordWrap": "on",
 		"editor.quickSuggestions": false
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	}
 }
