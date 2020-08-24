@@ -77,6 +77,7 @@ brew "pinentry-mac"
 brew "pstree"
 # Python version management
 brew "pyenv"
+brew "pyenv-virtualenv"
 # Library for command-line editing
 brew "readline"
 # Search tool like grep and The Silver Searcher
