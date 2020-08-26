@@ -11,6 +11,12 @@ fi
 
 set +e
 
+echo ""
+echo "Closing any open System Preferences panes..."
+# Close any open System Preferences panes, to prevent them from overriding
+# settings we’re about to change
+osascript -e 'tell application "System Preferences" to quit'
+
 disable_agent() {
 	mv "$1" "$1_DISABLED" >/dev/null 2>&1 ||
 		sudo mv "$1" "$1_DISABLED" >/dev/null 2>&1
@@ -181,6 +187,7 @@ defaults write com.apple.dock "expose-group-by-app" -bool true
 
 echo "  › Remove the auto-hiding Dock delay"
 defaults write com.apple.dock autohide-delay -float 0
+
 echo "  › Remove the animation when hiding/showing the Dock"
 defaults write com.apple.dock autohide-time-modifier -float 0
 
@@ -189,6 +196,9 @@ defaults write com.apple.dock autohide -bool true
 
 echo "  › Don't animate opening applications from the Dock"
 defaults write com.apple.dock launchanim -bool false
+
+echo "  > Don’t show recent applications in Dock"
+defaults write com.apple.dock show-recents -bool false
 
 #############################
 

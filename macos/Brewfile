@@ -109,6 +109,7 @@ brew "zlib"
 # GitHub CLI
 brew "github/gh/gh"
 
+cask "aerial"
 cask "brooklyn"
 cask "docker"
 cask "dotnet"
