@@ -11,6 +11,8 @@ cask "adoptopenjdk8"
 brew "asciinema"
 # Official Amazon AWS command-line interface
 brew "awscli@2"
+# Authenticate with AWS using your Okta credentials
+brew "aws-okta"
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 # AST-based pattern checker for JavaScript
@@ -55,6 +57,8 @@ brew "grc"
 brew "hyperfine"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Utility to optimize JPEG files
+brew "jpegoptim"
 # YAML Parser
 brew "libyaml"
 # Java-based project management
@@ -73,6 +77,8 @@ brew "node"
 brew "openssl"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
+# PNG image optimizing utility
+brew "pngquant"
 # Show ps output as a tree
 brew "pstree"
 # Python version management

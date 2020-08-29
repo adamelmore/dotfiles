@@ -152,5 +152,7 @@
 	},
 	"[javascript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	}
+	},
+	"diffEditor.ignoreTrimWhitespace": false,
+	"python.formatting.provider": "black"
 }

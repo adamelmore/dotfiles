@@ -1,8 +1,11 @@
 ban.spellright
 be5invis.toml
+dbaeumer.vscode-eslint
 dracula-theme.theme-dracula
 eamodio.gitlens
 EditorConfig.EditorConfig
+esbenp.prettier-vscode
+johnpapa.vscode-peacock
 ms-azuretools.vscode-docker
 ms-python.python
 patbenatar.advanced-new-file
@@ -12,5 +15,3 @@ shanoor.vscode-nginx
 skyapps.fish-vscode
 timonwong.shellcheck
 wmaurer.change-case
-dbaeumer.vscode-eslint
-esbenp.prettier-vscode

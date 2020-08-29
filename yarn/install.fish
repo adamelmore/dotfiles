@@ -1,3 +1,4 @@
+#!/usr/bin/env fish
 omf install yarn
 
 abbr -a yl 'yarn link'
